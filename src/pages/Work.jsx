@@ -105,7 +105,7 @@ const Work = () => {
       <div className="relative flex flex-col font-light mt-9" onMouseMove={handelMouseMove}>
         {
             projects.map((project, index ) => (
-                <div  key={project.id} id="project" className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0" onMouseEnter={() => handelMouseEnter(index)} onMouseLeave={() => handelMouseLeave(index)}>
+                <div onClick={() => window.open(project.href, '_blank')} key={project.id} id="project" className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0" onMouseEnter={() => handelMouseEnter(index)} onMouseLeave={() => handelMouseLeave(index)}>
 
                     {/* overlay  */}
                     <div ref={(el) => overlay.current[index] = el} className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path" />

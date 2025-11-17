@@ -178,7 +178,7 @@ export const projects = [
     name: "Browser-Based Operating System",
     description:
       "A fully interactive desktop-style OS built entirely with Vanilla JavaScript. Features include a camera app, gallery, music player, weather app, draggable windows, and multi-app environment built using pure DOM manipulation.",
-    href: "",
+    href: "https://apna-os.vercel.app/",
     image: "/assets/projects/os-project.png",
     bgImage: "/assets/background/blanket.jpg",
     frameworks: [
@@ -194,7 +194,7 @@ export const projects = [
     name: "K72 Agency Website",
     description:
       "A modern, animation-heavy portfolio built with React and GSAP. Includes smooth section transitions, parallax layers, interactive UI components, and mobile-first responsive design.",
-    href: "",
+    href: "https://k72-web-site.vercel.app/",
     image: "/assets/projects/k72.png",
     bgImage: "/assets/background/curtains.jpg",
     frameworks: [
@@ -210,7 +210,7 @@ export const projects = [
     name: "YouTube Clone",
     description:
       "A high-performance YouTube clone using the YouTube Data API with live chat, category filters, debounced search, infinite scrolling, and clean state management for seamless UX.",
-    href: "",
+    href: "https://youtube-web-site.vercel.app/",
     image: "/assets/projects/youtube.png",
     bgImage: "/assets/background/poster.jpg",
     frameworks: [
