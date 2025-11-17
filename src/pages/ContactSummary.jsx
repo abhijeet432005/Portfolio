@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
-import Marquee from '../components/contatct/Marquee'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import Marquee from '../components/contact/Marquee'
 
 const ContactSummary = () => {
     const items = ['Innovation', 'Precision', "Collaboration", "Excellence"]

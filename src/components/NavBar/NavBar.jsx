@@ -148,7 +148,7 @@ const NavBar = () => {
 
       <div
         onClick={toggleMenu}
-        className="fixed top-4 right-10 z-50 w-14 h-14 flex flex-col justify-center gap-1 translate-all duration-300 bg-black rounded-full cursor-pointer md:w-20 md:h-20 items-center"
+        className="fixed top-4 right-5 md:right-10 z-50 w-14 h-14 flex flex-col justify-center gap-1 translate-all duration-300 bg-black rounded-full cursor-pointer md:w-18 md:h-18 items-center"
         style={
           ShowBurger
             ? { clipPath: "circle(50% at 50% 50%)" }

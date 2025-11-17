@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import AnimatedHeaderSection from "../components/common/AnimatedHeaderSection";
-import Marquee from "../components/contatct/Marquee";
+import Marquee from "../components/contact/Marquee";
 import { socials } from "../constants";
 import gsap from "gsap";
 
