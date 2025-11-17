@@ -87,7 +87,7 @@ const Loader = ({ onFinish }) => {
         style={{ width: `${counter}%` }}
       />
 
-      <div className="loader-hide absolute bottom-4 right-5 sm:bottom-6 sm:right-8 z-30 w-14 h-14">
+      <div className="loader-hide absolute bottom-10 right-5 sm:bottom-6 sm:right-8 z-30 w-14 h-14">
         <svg className="w-full h-full rotate-[-90deg]">
           <circle
             cx="28"
