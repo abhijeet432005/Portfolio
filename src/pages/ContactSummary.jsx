@@ -2,11 +2,13 @@ import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import Marquee from '../components/contact/Marquee'
+import { ScrollTrigger } from 'gsap/all'
 
 const ContactSummary = () => {
     const items = ['Innovation', 'Precision', "Collaboration", "Excellence"]
     const items2 = ['contact', 'contact', 'contact', 'contact', 'contact', 'contact','contact','contact']
     const containerRef = useRef(null);
+    gsap.registerPlugin(ScrollTrigger)
 
     useGSAP(() => {
         gsap.to(containerRef.current, {
@@ -19,6 +21,8 @@ const ContactSummary = () => {
                 pinSpacing: true
             }
         })
+
+        setTimeout(() => ScrollTrigger.refresh(), 200);
     })
 
 
