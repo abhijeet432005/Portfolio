@@ -75,8 +75,8 @@ const NavBar = () => {
     let lastScrollY = window.scrollY;
     const handelScroll = () => {
       const currentScrollY = window.scrollY;
-    //   console.log("L" + lastScrollY);
-    //   console.log("C" + currentScrollY);
+      //   console.log("L" + lastScrollY);
+      //   console.log("C" + currentScrollY);
 
       setShowBurger(currentScrollY <= lastScrollY || currentScrollY < 10);
       lastScrollY = currentScrollY;
@@ -124,7 +124,15 @@ const NavBar = () => {
         >
           <div className="font-thin">
             <p className="tracking-wider text-white/50">E-mail</p>
-            <p className="lowercase tracking-wider text-pretty">
+            <p
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=abhijeetkumar@gmail.com",
+                  "_blank"
+                )
+              }
+              className="lowercase cursor-pointer tracking-wider text-pretty"
+            >
               abhijeet44kumar@gmail.com
             </p>
           </div>
@@ -136,6 +144,7 @@ const NavBar = () => {
                 <a
                   key={idx}
                   href={`${elem.href}`}
+                  target="_blank"
                   className="text:sm leading-loose tracking-widest uppercase hover:text-white transition-colors duration-300"
                 >
                   [{elem.name}]
