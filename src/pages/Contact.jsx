@@ -64,8 +64,8 @@ I’m always open to talk and explore what we can create.`;
               <h2>Phone</h2>
               <div className="w-full h-px my-2 bg-white/30"></div>
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                <a href="tel:+919876543210" className="cursor-pointer">
-                  +91 9873601547
+                <a href="tel:+919873601547" className="cursor-pointer">
+                  +91 98736 01547
                 </a>
               </p>
             </div>
