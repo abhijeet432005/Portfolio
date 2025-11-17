@@ -65,7 +65,7 @@ I’m always open to talk and explore what we can create.`;
               <div className="w-full h-px my-2 bg-white/30"></div>
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
                 <a href="tel:+919876543210" className="cursor-pointer">
-                  +91 98765 43210
+                  +91 9873601547
                 </a>
               </p>
             </div>
