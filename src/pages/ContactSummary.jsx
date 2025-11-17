@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
+// import { useGSAP } from '@gsap/react'
+// import gsap from 'gsap'
 import Marquee from '../components/contact/Marquee'
 import { ScrollTrigger } from 'gsap/all'
 

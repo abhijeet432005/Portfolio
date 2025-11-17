@@ -43,7 +43,7 @@ const Loader = ({ onFinish }) => {
 
   useGSAP(() => {
     gsap.from(".letter", {
-      y: 30,
+      y: 10,
       opacity: 0,
       scale: 0.8,
       rotateX: 40,
@@ -55,12 +55,14 @@ const Loader = ({ onFinish }) => {
         from: "left",
       },
     });
+
   });
+
 
 
   return (
     <div className="fixed top-0 z-999 h-screen w-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-2xl md:text-5xl name mb-11 uppercase flex gap-2">
+      <h1 className="text-2xl md:text-5xl name mb-11 uppercase font-thin flex gap-2">
         <div className="word">
           {"Abhijeet".split("").map((l, i) => (
             <span key={i} className="letter inline-block">
@@ -76,6 +78,7 @@ const Loader = ({ onFinish }) => {
             </span>
           ))}
         </div>
+        
       </h1>
       <div className="follow-bar absolute top-1/2 left-0 h-[2px] bg-[#e5e5e0] -translate-y-1/2 z-20" />
       <div
