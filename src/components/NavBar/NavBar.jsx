@@ -111,6 +111,7 @@ const NavBar = () => {
                 duration={2000}
                 smooth
                 className="transition-all duration-300 cursor-pointer hover:text-white"
+                onClick={toggleMenu}
               >
                 {elem}
               </Link>
